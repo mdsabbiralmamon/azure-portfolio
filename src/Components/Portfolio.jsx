@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/code.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Man holding code sticky notes";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Soul Connect (Full Stack MERN)",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A matrimony site where users can create accounts, submit biodata, request premium access, and more. Features include separate dashboards for admin and users with Stripe Payment Gateway for premium requests.",
+    url: "https://soul-connect-bysam.web.app/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Tour Savvy (Full Stack MERN)",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A Tour Management Application where tourists can view places, add locations and reviews, and manage tours.",
+    url: "https://toursavvy-bysam.web.app/",
   },
   {
-    title: "My Resume Site",
+    title: "North Studio (Front End Next.js)",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "An architecture firm showcase website that presents company profiles and visual representation of services.",
+    url: "https://northstudiobd.com/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Restaurant Management System (Front End)",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "A restaurant management application where guests can view and order food, including custom favorites and secure authentication.",
+    url: "https://flavor-fusion-bysam.web.app/",
   },
 ];
 
